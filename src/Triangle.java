@@ -20,11 +20,4 @@ public class Triangle {
         double p = (e1+e2+e3)/2;
         return Math.sqrt(p*(p-e1)*(p-e2)*(p-e3));
     }
-
-    public static void main(String[] args) {
-        Triangle t = new Triangle();
-        t.setTri(0,0,0,3,4,0);
-        System.out.println("面积为："+t.getArea());
-        System.out.println("周长为：" + t.getPerimeter());
-    }
 }
